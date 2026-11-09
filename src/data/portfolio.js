@@ -6,7 +6,7 @@ export const profile = {
   email: "asitkumarnayak.work@gmail.com",
   phone: "+91-7978253449",
   phoneHref: "tel:+917978253449",
-  linkedin: "https://linkedin.com/in/asit-ml",
+  linkedin: "https://www.linkedin.com/in/asit-kumar-nayak-80abb1264/",
   github: "https://github.com/asit-ml",
   resume: "/resume.pdf",
   resumeName: "Asit_Kumar_Nayak_Resume.pdf",
@@ -24,7 +24,7 @@ export const navLinks = [
 export const hero = {
   eyebrow: "IIT Madras BS Data Science — Chennai, India",
   lines: ["Engineering", "Intelligent Systems", "& Modern Web."],
-  bio: "I'm Asit Kumar Nayak — a Data Science & Applications student at IIT Madras, a former Junior Developer Intern at NPTEL, and a Teaching Assistant at IIT Madras. I build machine-learning models, full-stack platforms and clean data pipelines.",
+  bio: "I'm Asit, a Data Science & Applications student at IIT Madras. I recently finished a Junior Developer internship at NPTEL and work as a Teaching Assistant. I enjoy turning data, models and ideas into useful software.",
   stats: [
     { value: "6", label: "Projects built" },
     { value: "4", label: "Experience roles" },
@@ -259,14 +259,14 @@ export const hackathons = [
 
 export const about = {
   story: [
-    "I'm pursuing the BS in Data Science & Applications at IIT Madras — a program that runs from mathematical foundations like statistics and optimization all the way to deep learning, software engineering, and application development.",
-    "Alongside my degree, I recently completed a Junior Developer Internship at NPTEL, where I built automated pipelines that kept educational data flowing between SWAYAM, TCS result systems and the new NPTEL platform. At IIT Madras, I've served as a Teaching Assistant across three courses — Mathematics for Data Science, the Embedded C Lab, and Business Analytics.",
-    "What drives me is taking a model that works in a notebook and turning it into a product people can actually use — whether that's a malware-risk classifier, a music genre identifier for noisy mashups, or a complete society-management platform.",
+    "I'm studying for a BS in Data Science & Applications at IIT Madras. The course has taken me from statistics, mathematics and optimization to machine learning, software engineering and application development.",
+    "I recently completed a Junior Developer Internship at NPTEL, working on data pipelines and dashboards for educational operations. I also support learners as a Teaching Assistant in Mathematics for Data Science, Embedded C and Business Analytics.",
+    "Most of my projects start with a practical question: can a model or idea be turned into something people can actually use? That has led me to build tools for malware-risk prediction, music classification, society management and presentation generation.",
   ],
   highlights: [
     {
       title: "NPTEL Junior Developer Internship",
-      desc: "Completed work on data pipelines and dashboards for India's largest online-education programme.",
+      desc: "Worked on data pipelines, dashboards and day-to-day data operations.",
     },
     {
       title: "3× Teaching Assistant @ IIT Madras",

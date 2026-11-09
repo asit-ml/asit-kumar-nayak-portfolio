@@ -9,7 +9,7 @@ export default function Experience() {
       <PageHeader
         eyebrow="Experience"
         lines={["Work &", "leadership."]}
-        sub="One internship at India's largest online-education programme, and three Teaching Assistantships at IIT Madras."
+        sub="An internship at NPTEL, followed by three Teaching Assistant roles at IIT Madras."
       />
 
       <section className="mx-auto max-w-6xl px-6 py-16 lg:px-10" data-testid="experience-timeline">

@@ -22,7 +22,7 @@ const channels = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/asit-ml",
+    value: "linkedin.com/in/asit-kumar-nayak-80abb1264",
     href: profile.linkedin,
     testId: "contact-linkedin-link",
   },
