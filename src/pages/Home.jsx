@@ -148,15 +148,15 @@ export default function Home() {
               >
                 <Link
                   to="/projects"
-                  className="group flex items-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink transition-transform duration-200 hover:scale-[1.04]"
+                  className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04]"
                   data-testid="hero-cta-projects"
                 >
-                  View Featured Projects
+                  View Projects
                   <ArrowRight size={17} className="transition-transform duration-200 group-hover:translate-x-1" />
                 </Link>
                 <Link
                   to="/contact"
-                  className="rounded-full border border-line px-7 py-3.5 font-semibold text-slate-200 transition-colors duration-200 hover:border-neon/50 hover:text-neon"
+                  className="inline-flex min-h-12 items-center justify-center rounded-full border border-slate-500 bg-panel/80 px-7 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-neon hover:bg-panel2 hover:text-neon"
                   data-testid="hero-cta-contact"
                 >
                   Get In Touch
@@ -164,7 +164,7 @@ export default function Home() {
                 <a
                   href={profile.resume}
                   download={profile.resumeName}
-                  className="flex items-center gap-2 px-2 py-3.5 font-mono text-sm text-slate-400 underline-offset-4 transition-colors hover:text-neon hover:underline"
+                  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-gold/60 bg-panel/80 px-6 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-gold hover:bg-panel2 hover:text-gold"
                   data-testid="hero-cta-resume"
                 >
                   <FileText size={16} />
