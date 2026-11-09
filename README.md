@@ -2,6 +2,8 @@
 
 Dark, animated, multi-page portfolio built with React 19, Framer Motion, Lenis and Tailwind CSS.
 
+🌐 **Live portfolio:** https://asit-nayak-portfolio.vercel.app/
+
 ## Pages
 
 - `/` — Home: kinetic hero, stats, skills marquee, Core Spotlight bento, featured projects, CTA
@@ -38,4 +40,4 @@ yarn build
 
 ## Deploy
 
-The project is configured for [Vercel](https://vercel.com/). Import the GitHub repository and use the default Create React App settings; Vercel will run `yarn build` and publish the `build` directory. `vercel.json` rewrites direct visits to portfolio routes to the React app.
+The project is deployed on [Vercel](https://vercel.com/) at https://asit-nayak-portfolio.vercel.app/. Import the GitHub repository to create a connected deployment; Vercel runs `yarn build` and publishes the `build` directory. `vercel.json` preserves static assets and rewrites direct portfolio routes to the React app.
