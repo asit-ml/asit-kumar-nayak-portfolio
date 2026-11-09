@@ -84,8 +84,15 @@ export default function Home() {
   const handleMove = (e) => {
     const r = heroRef.current?.getBoundingClientRect();
     if (!r) return;
-    mx.set(e.clientX - r.left - r.width / 2);
-    my.set(e.clientY - r.top - r.height / 2);
+    const normalizedX = (e.clientX - r.left) / r.width - 0.5;
+    const normalizedY = (e.clientY - r.top) / r.height - 0.5;
+    mx.set(Math.max(-1, Math.min(1, normalizedX)));
+    my.set(Math.max(-1, Math.min(1, normalizedY)));
+  };
+
+  const handleLeave = () => {
+    mx.set(0);
+    my.set(0);
   };
 
   const featured = projects.filter((p) => p.featured);
@@ -95,6 +102,7 @@ export default function Home() {
       <section
         ref={heroRef}
         onMouseMove={handleMove}
+        onMouseLeave={handleLeave}
         className="grid-bg relative overflow-hidden"
         data-testid="hero-section"
       >

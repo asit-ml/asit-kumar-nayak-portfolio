@@ -119,7 +119,7 @@ export const projects = [
       "A LightGBM-based binary classifier that estimates malware infection risk on Windows machines, trained on antivirus telemetry and system-configuration data.",
     tech: ["LightGBM", "Python", "Antivirus Telemetry", "System Config Data"],
     github: "https://github.com/asit-ml/System_Threat_Forecaster-Machine-learning-Project",
-    demo: "",
+    demo: "https://systemthreatforecaster-machine-learning-project-iitm.streamlit.app/",
     featured: true,
   },
   {
@@ -130,7 +130,7 @@ export const projects = [
       "A 10-class music genre classifier built for noisy mashups, using log-mel spectrograms and an ensemble of Audio Spectrogram Transformer (AST) and ResNet18 models.",
     tech: ["Audio Spectrogram Transformer", "ResNet18", "Log-mel Spectrograms", "Python"],
     github: "https://github.com/asit-ml/Music-Genre-Classifier-Deep-Learning-Generative-AI-Project",
-    demo: "",
+    demo: "https://huggingface.co/spaces/Asitkumarnayak/music_genre_classification",
     featured: true,
   },
   {
@@ -174,7 +174,7 @@ export const projects = [
       "A multi-LLM presentation generator that converts text into PowerPoint slides and applies styles extracted from uploaded templates.",
     tech: ["React", "TypeScript", "Vite", "PptxGenJS", "PowerPoint Generation"],
     github: "https://github.com/asit-ml/PPT_Generator",
-    demo: "",
+    demo: "https://bonus-1-ten.vercel.app/",
     featured: false,
   },
 ];
