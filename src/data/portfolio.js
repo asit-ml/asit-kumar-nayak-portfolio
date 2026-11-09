@@ -6,7 +6,7 @@ export const profile = {
   email: "asitkumarnayak.work@gmail.com",
   phone: "+91-7978253449",
   phoneHref: "tel:+917978253449",
-  linkedin: "https://www.linkedin.com/in/asit-kumar-nayak-80abb1264/",
+  linkedin: "https://www.linkedin.com/in/asitn/",
   github: "https://github.com/asit-ml",
   resume: "/resume.pdf",
   resumeName: "Asit_Kumar_Nayak_Resume.pdf",

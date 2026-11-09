@@ -45,7 +45,7 @@ export default function Footer() {
                 <Phone size={16} /> {profile.phone}
               </a>
               <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-slate-400 transition-colors hover:text-neon" data-testid="footer-linkedin-link">
-                <Linkedin size={16} /> linkedin.com/in/asit-kumar-nayak-80abb1264
+                <Linkedin size={16} /> linkedin.com/in/asitn
               </a>
               <a href={profile.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-slate-400 transition-colors hover:text-neon" data-testid="footer-github-link">
                 <Github size={16} /> github.com/asit-ml
