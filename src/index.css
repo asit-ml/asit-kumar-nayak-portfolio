@@ -60,11 +60,20 @@ button {
 }
 
 .grid-bg {
+    isolation: isolate;
+}
+
+.grid-bg::before {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: "";
     background-image: linear-gradient(rgba(0, 229, 255, 0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(0, 229, 255, 0.05) 1px, transparent 1px);
     background-size: 72px 72px;
     -webkit-mask-image: radial-gradient(ellipse 90% 80% at 50% 20%, black 25%, transparent 78%);
     mask-image: radial-gradient(ellipse 90% 80% at 50% 20%, black 25%, transparent 78%);
+    pointer-events: none;
 }
 
 .text-outline {
