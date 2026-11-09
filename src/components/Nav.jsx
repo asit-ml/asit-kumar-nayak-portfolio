@@ -56,7 +56,7 @@ export default function Nav() {
               data-testid="nav-download-resume-btn"
             >
               <Download size={14} />
-              CV
+              Resume
             </a>
           </div>
 
@@ -110,7 +110,7 @@ export default function Nav() {
             >
               <a href={profile.resume} download={profile.resumeName} className="flex items-center gap-2 rounded-full bg-neon px-6 py-3 font-semibold text-ink" data-testid="mobile-download-resume-btn">
                 <Download size={16} />
-                Download CV
+                Download Resume
               </a>
               <p className="font-mono text-xs text-slate-500">{profile.email}</p>
             </motion.div>

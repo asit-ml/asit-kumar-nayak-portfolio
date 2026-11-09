@@ -168,7 +168,7 @@ export default function Home() {
                   data-testid="hero-cta-resume"
                 >
                   <FileText size={16} />
-                  résumé.pdf
+                  Download Resume
                 </a>
               </motion.div>
             </div>
@@ -352,7 +352,7 @@ export default function Home() {
                   data-testid="home-cta-resume-button"
                 >
                   <FileText size={16} />
-                  Download résumé
+                  Download Resume
                 </a>
               </div>
             </div>
