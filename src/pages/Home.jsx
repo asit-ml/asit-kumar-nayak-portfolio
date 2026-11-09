@@ -21,7 +21,7 @@ const bento = [
   {
     icon: Briefcase,
     tag: "Work",
-    title: "Junior Developer Intern @ NPTEL",
+    title: "Completed Junior Developer Internship @ NPTEL",
     org: "Jan 2026 – Nov 2026",
     desc: "Automated pipelines syncing educational data across SWAYAM, TCS result systems and the new NPTEL platform.",
     chips: ["Data Pipelines", "Looker Studio", "Automation"],
@@ -32,8 +32,8 @@ const bento = [
   {
     icon: Users,
     tag: "Leadership",
-    title: "3× Teaching Assistant @ IIT Madras",
-    org: "Oct 2023 – Present",
+    title: "3 Teaching Assistantships @ IIT Madras",
+    org: "Across Oct 2023 – Present",
     desc: "Maths for Data Science · Embedded C Lab · Business Analytics.",
     chips: ["Mentoring", "Grading", "Content"],
     to: "/experience",

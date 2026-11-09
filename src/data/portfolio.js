@@ -24,7 +24,7 @@ export const navLinks = [
 export const hero = {
   eyebrow: "IIT Madras BS Data Science — Chennai, India",
   lines: ["Engineering", "Intelligent Systems", "& Modern Web."],
-  bio: "I'm Asit Kumar Nayak — a Data Science & Applications student at IIT Madras, Junior Developer Intern at NPTEL, and Teaching Assistant at IIT Madras. I build machine-learning models, full-stack platforms and clean data pipelines.",
+  bio: "I'm Asit Kumar Nayak — a Data Science & Applications student at IIT Madras, a former Junior Developer Intern at NPTEL, and a Teaching Assistant at IIT Madras. I build machine-learning models, full-stack platforms and clean data pipelines.",
   stats: [
     { value: "6", label: "Projects built" },
     { value: "4", label: "Experience roles" },
@@ -59,7 +59,7 @@ export const experience = [
     organization: "NPTEL — National Programme on Technology Enhanced Learning",
     period: "Jan 2026 – Nov 2026",
     type: "Internship",
-    current: true,
+    current: false,
     bullets: [
       "Engineered automated pipelines to migrate and synchronize educational data across SWAYAM, TCS result systems, and the new NPTEL platform.",
       "Collaborated with operations teams on Looker Studio dashboards and researched secure embedding methods for faculty and industry stakeholders.",
@@ -72,7 +72,7 @@ export const experience = [
     id: "ta-business-analytics",
     role: "Teaching Assistant — Business Analytics",
     organization: "IIT Madras",
-    period: "May 2025 – Dec 2026",
+    period: "May 2025 – Present",
     type: "Academic Role",
     bullets: [
       "Assisted Prof. Malolan Sundararaman and Dr. Swaminathan with course delivery on data dashboarding, regression diagnostics, and logistic regression.",
@@ -118,7 +118,7 @@ export const projects = [
     description:
       "A LightGBM-based binary classifier that estimates malware infection risk on Windows machines, trained on antivirus telemetry and system-configuration data.",
     tech: ["LightGBM", "Python", "Antivirus Telemetry", "System Config Data"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/System_Threat_Forecaster-Machine-learning-Project",
     demo: "",
     featured: true,
   },
@@ -129,7 +129,7 @@ export const projects = [
     description:
       "A 10-class music genre classifier built for noisy mashups, using log-mel spectrograms and an ensemble of Audio Spectrogram Transformer (AST) and ResNet18 models.",
     tech: ["Audio Spectrogram Transformer", "ResNet18", "Log-mel Spectrograms", "Python"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/Music-Genre-Classifier-Deep-Learning-Generative-AI-Project",
     demo: "",
     featured: true,
   },
@@ -140,7 +140,7 @@ export const projects = [
     description:
       "A FastAPI + React platform for housing-society operations — finance, resident helpdesk, amenity bookings, community updates, staff operations and visitor management.",
     tech: ["FastAPI", "React", "Python", "JavaScript"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/SocietySync-Application",
     demo: "",
     featured: true,
   },
@@ -151,7 +151,7 @@ export const projects = [
     description:
       "A role-based hospital management system for administrators, doctors and patients, with appointment and treatment workflows built on a Flask REST API, Vue frontend and Celery/Redis background tasks.",
     tech: ["Flask REST API", "Vue.js", "Celery", "Redis", "Python"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/Hospital_Management_Application",
     demo: "",
     featured: false,
   },
@@ -162,7 +162,7 @@ export const projects = [
     description:
       "A Flask-based campus placement portal covering student and company profiles, placement drives, applications, shortlisting and status tracking.",
     tech: ["Flask", "Python"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/Placement_Portal_Application",
     demo: "",
     featured: false,
   },
@@ -172,8 +172,8 @@ export const projects = [
     category: "ai",
     description:
       "A multi-LLM presentation generator that converts text into PowerPoint slides and applies styles extracted from uploaded templates.",
-    tech: ["Multi-LLM", "Python", "PowerPoint Generation"],
-    github: "https://github.com/asit-ml",
+    tech: ["React", "TypeScript", "Vite", "PptxGenJS", "PowerPoint Generation"],
+    github: "https://github.com/asit-ml/PPT_Generator",
     demo: "",
     featured: false,
   },
@@ -253,20 +253,20 @@ export const hackathons = [
     description:
       "Collaborated with teammates to develop models predicting seven polymer properties from SMILES strings using RDKit molecular features, multitask learning, scaffold-based validation, and ensemble methods.",
     tags: ["RDKit", "Multitask Learning", "Scaffold-based Validation", "Ensemble Methods", "SMILES"],
-    github: "https://github.com/asit-ml",
+    github: "https://github.com/asit-ml/ANRF-AISEHack2.0",
   },
 ];
 
 export const about = {
   story: [
     "I'm pursuing the BS in Data Science & Applications at IIT Madras — a program that runs from mathematical foundations like statistics and optimization all the way to deep learning, software engineering, and application development.",
-    "Alongside my degree, I work as a Junior Developer Intern at NPTEL, where I build automated pipelines that keep educational data flowing between SWAYAM, TCS result systems and the new NPTEL platform. At IIT Madras, I've served as a Teaching Assistant across three courses — Mathematics for Data Science, the Embedded C Lab, and Business Analytics.",
+    "Alongside my degree, I recently completed a Junior Developer Internship at NPTEL, where I built automated pipelines that kept educational data flowing between SWAYAM, TCS result systems and the new NPTEL platform. At IIT Madras, I've served as a Teaching Assistant across three courses — Mathematics for Data Science, the Embedded C Lab, and Business Analytics.",
     "What drives me is taking a model that works in a notebook and turning it into a product people can actually use — whether that's a malware-risk classifier, a music genre identifier for noisy mashups, or a complete society-management platform.",
   ],
   highlights: [
     {
-      title: "NPTEL Junior Developer Intern",
-      desc: "Building data pipelines and dashboards for India's largest online-education programme.",
+      title: "NPTEL Junior Developer Internship",
+      desc: "Completed work on data pipelines and dashboards for India's largest online-education programme.",
     },
     {
       title: "3× Teaching Assistant @ IIT Madras",

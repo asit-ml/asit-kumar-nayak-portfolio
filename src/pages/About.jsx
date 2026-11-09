@@ -55,8 +55,8 @@ export default function About() {
                 <div className="flex items-start gap-3 rounded-xl border border-line bg-panel p-4">
                   <Briefcase size={18} className="mt-0.5 text-neon" />
                   <div>
-                    <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-slate-500">Currently</p>
-                    <p className="mt-1 text-sm text-slate-200">Junior Developer Intern @ NPTEL</p>
+                    <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-slate-500">Recent role</p>
+                    <p className="mt-1 text-sm text-slate-200">Completed Junior Developer Internship @ NPTEL</p>
                   </div>
                 </div>
                 <a
