@@ -131,21 +131,11 @@ export default function Home() {
                 ))}
               </h1>
 
-              <motion.p
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.55, delay: 0.55, ease: EASE }}
-                className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400"
-              >
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
                 {hero.bio}
-              </motion.p>
+              </p>
 
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.55, delay: 0.7, ease: EASE }}
-                className="mt-9 flex flex-wrap items-center gap-4"
-              >
+              <div className="relative z-20 mt-9 flex flex-wrap items-center gap-4">
                 <Link
                   to="/projects"
                   className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04]"
@@ -170,7 +160,7 @@ export default function Home() {
                   <FileText size={16} />
                   Download Resume
                 </a>
-              </motion.div>
+              </div>
             </div>
 
             <motion.div style={{ y: visualY }} className="lg:col-span-5">
