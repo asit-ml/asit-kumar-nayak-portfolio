@@ -185,7 +185,7 @@ export const projects = [
       "A browser-based AI assistant with web search, sandboxed JavaScript execution, Markdown rendering and support for multiple LLM providers.",
     tech: ["JavaScript", "LLM APIs", "Web Search", "Markdown"],
     github: "https://github.com/asit-ml/AI_Chatbot",
-    demo: "",
+    demo: "https://asit-ml.github.io/AI_Chatbot/",
     featured: false,
   },
   {
