@@ -207,7 +207,7 @@ export const projects = [
       "A FastAPI teaching assistant that retrieves relevant course material and uses it to answer learner questions with grounded responses.",
     tech: ["FastAPI", "Python", "Semantic Retrieval", "LLMs"],
     github: "https://github.com/asit-ml/Discourse_Teaching_Assistant",
-    demo: "",
+    demo: "https://discourse-teaching-assistant.vercel.app/",
     featured: false,
   },
   {
