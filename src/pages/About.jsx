@@ -20,7 +20,7 @@ export default function About() {
             <div className="relative">
               <div aria-hidden="true" className="absolute -left-3 -top-3 h-full w-full rounded-2xl border border-gold/40" />
               <div className="relative overflow-hidden rounded-2xl border border-line">
-                <img src={images.about} alt="Workspace where the projects happen" className="aspect-[4/5] w-full object-cover" />
+                <img src={images.about} alt="Workspace where the projects happen" className="aspect-[4/5] w-full object-cover" loading="lazy" decoding="async" />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
                 <p className="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-[0.2em] text-slate-300">
                   Where the work happens

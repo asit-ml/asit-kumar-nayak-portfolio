@@ -51,7 +51,7 @@ export default function Education() {
           <div className="lg:col-span-5">
             <Reveal delay={0.1}>
               <div className="relative overflow-hidden rounded-2xl border border-line">
-                <img src={images.education} alt="Late-night build session" className="aspect-[4/5] w-full object-cover" />
+                <img src={images.education} alt="Late-night build session" className="aspect-[4/5] w-full object-cover" loading="lazy" decoding="async" />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent" />
                 <div className="absolute inset-x-5 bottom-5">
                   <p className="font-mono text-xs uppercase tracking-[0.2em] text-neon">Side effect of coursework</p>

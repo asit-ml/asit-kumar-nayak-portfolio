@@ -26,7 +26,7 @@ export const hero = {
   lines: ["Engineering", "Intelligent Systems", "& Modern Web."],
   bio: "I'm Asit, a Data Science & Applications student at IIT Madras. I recently finished a Junior Developer internship at NPTEL and work as a Teaching Assistant. I enjoy turning data, models and ideas into useful software.",
   stats: [
-    { value: "6", label: "Projects built" },
+    { value: "10", label: "Projects built" },
     { value: "4", label: "Experience roles" },
     { value: "3", label: "TA courses" },
     { value: "Top 20", label: "AISEHack 2.0" },
@@ -175,6 +175,50 @@ export const projects = [
     tech: ["React", "TypeScript", "Vite", "PptxGenJS", "PowerPoint Generation"],
     github: "https://github.com/asit-ml/PPT_Generator",
     demo: "https://bonus-1-ten.vercel.app/",
+    featured: false,
+  },
+  {
+    id: "ai-chatbot",
+    title: "AI Chatbot",
+    category: "ai",
+    description:
+      "A browser-based AI assistant with web search, sandboxed JavaScript execution, Markdown rendering and support for multiple LLM providers.",
+    tech: ["JavaScript", "LLM APIs", "Web Search", "Markdown"],
+    github: "https://github.com/asit-ml/AI_Chatbot",
+    demo: "",
+    featured: false,
+  },
+  {
+    id: "data-analyst-agent",
+    title: "Data Analyst Agent",
+    category: "ai",
+    description:
+      "An AI-powered FastAPI service that analyses uploaded files with Gemini and runs generated analysis code in an isolated Docker environment.",
+    tech: ["FastAPI", "Python", "Gemini", "Docker"],
+    github: "https://github.com/asit-ml/Data_Analyst_Agent",
+    demo: "",
+    featured: false,
+  },
+  {
+    id: "discourse-teaching-assistant",
+    title: "Discourse Teaching Assistant",
+    category: "ai",
+    description:
+      "A FastAPI teaching assistant that retrieves relevant course material and uses it to answer learner questions with grounded responses.",
+    tech: ["FastAPI", "Python", "Semantic Retrieval", "LLMs"],
+    github: "https://github.com/asit-ml/Discourse_Teaching_Assistant",
+    demo: "",
+    featured: false,
+  },
+  {
+    id: "aisehack",
+    title: "ANRF AISEHack 2.0",
+    category: "ml",
+    description:
+      "A polymer-property prediction project using RDKit molecular features, multitask learning, scaffold-aware validation and ensemble models.",
+    tech: ["Python", "RDKit", "Multitask Learning", "Ensembles"],
+    github: "https://github.com/asit-ml/ANRF-AISEHack2.0",
+    demo: "",
     featured: false,
   },
 ];

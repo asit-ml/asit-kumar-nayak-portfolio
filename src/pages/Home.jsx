@@ -54,7 +54,7 @@ const bento = [
   {
     icon: Layers,
     tag: "Engineering",
-    title: "6 shipped projects",
+    title: "10 projects built",
     org: "ML · Deep Learning · Full-Stack",
     desc: "From malware-risk classifiers to society-management platforms.",
     chips: ["PyTorch", "FastAPI", "React"],
@@ -146,7 +146,7 @@ export default function Home() {
               <div className="relative z-20 mt-9 flex flex-wrap items-center gap-4">
                 <Link
                   to="/projects"
-                  className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04]"
+                  className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04] sm:w-auto"
                   data-testid="hero-cta-projects"
                 >
                   View Projects
@@ -154,7 +154,7 @@ export default function Home() {
                 </Link>
                 <Link
                   to="/contact"
-                  className="inline-flex min-h-12 items-center justify-center rounded-full border border-slate-500 bg-panel/80 px-7 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-neon hover:bg-panel2 hover:text-neon"
+                  className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-slate-500 bg-panel/80 px-7 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-neon hover:bg-panel2 hover:text-neon sm:w-auto"
                   data-testid="hero-cta-contact"
                 >
                   Get In Touch
@@ -162,7 +162,7 @@ export default function Home() {
                 <a
                   href={profile.resume}
                   download={profile.resumeName}
-                  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-gold/60 bg-panel/80 px-6 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-gold hover:bg-panel2 hover:text-gold"
+                  className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-gold/60 bg-panel/80 px-6 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-gold hover:bg-panel2 hover:text-gold sm:w-auto"
                   data-testid="hero-cta-resume"
                 >
                   <FileText size={16} />
@@ -184,6 +184,9 @@ export default function Home() {
                     src={images.hero}
                     alt="Developer workspace"
                     className="aspect-[4/3] w-full object-cover"
+                    decoding="async"
+                    fetchPriority="high"
+                    loading="eager"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-transparent" />
                   <div className="absolute inset-x-4 bottom-4 rounded-xl border border-line bg-ink/80 p-4 font-mono text-xs leading-relaxed backdrop-blur-md" data-testid="hero-terminal-chip">

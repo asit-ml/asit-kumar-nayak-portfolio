@@ -16,7 +16,7 @@ export default function Projects() {
       <PageHeader
         eyebrow="Projects"
         lines={["Built, shipped,", "battle-tested."]}
-        sub="Six projects across machine learning, deep learning and full-stack web — from malware-risk classification to multi-LLM tooling."
+        sub="Projects across machine learning, deep learning, full-stack web and AI tooling — built from coursework, competitions and practical problems."
       />
 
       <section className="mx-auto max-w-6xl px-6 py-14 lg:px-10" data-testid="projects-grid-section">

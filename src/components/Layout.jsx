@@ -10,6 +10,10 @@ export default function Layout({ children }) {
   const lenisRef = useRef(null);
 
   useEffect(() => {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const touchDevice = window.matchMedia("(pointer: coarse)").matches;
+    if (reducedMotion || touchDevice) return undefined;
+
     const lenis = new Lenis({ duration: 1.15, smoothWheel: true });
     lenisRef.current = lenis;
     let rafId;
@@ -36,6 +40,8 @@ export default function Layout({ children }) {
   const sy = useSpring(my, { stiffness: 120, damping: 26 });
 
   useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) return undefined;
+
     const move = (e) => {
       mx.set(e.clientX);
       my.set(e.clientY);
