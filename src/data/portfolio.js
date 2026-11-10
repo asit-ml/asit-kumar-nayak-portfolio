@@ -22,7 +22,7 @@ export const navLinks = [
 ];
 
 export const hero = {
-  eyebrow: "IIT Madras BS Data Science — Chennai, India",
+  eyebrow: "IIT Madras · Data Science · Chennai",
   lines: ["Engineering", "Intelligent Systems", "& Modern Web."],
   bio: "I'm Asit, a Data Science & Applications student at IIT Madras. I recently finished a Junior Developer internship at NPTEL and work as a Teaching Assistant. I enjoy turning data, models and ideas into useful software.",
   stats: [

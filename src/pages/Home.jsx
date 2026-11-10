@@ -113,13 +113,13 @@ export default function Home() {
         />
 
         <div className="relative mx-auto max-w-7xl px-6 pt-32 sm:pt-36 lg:px-10 lg:pt-44">
-          <div className="grid items-center gap-14 lg:grid-cols-12">
-            <div className="lg:col-span-7">
+          <div className="grid min-w-0 items-center gap-14 lg:grid-cols-12">
+            <div className="min-w-0 lg:col-span-7">
               <motion.p
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: EASE }}
-                className="font-mono text-xs uppercase tracking-[0.3em] text-neon sm:text-sm"
+                className="max-w-[calc(100vw-3rem)] break-words font-mono text-xs uppercase leading-relaxed tracking-[0.3em] text-neon sm:max-w-full sm:text-sm"
               >
                 {hero.eyebrow}
               </motion.p>
@@ -139,14 +139,14 @@ export default function Home() {
                 ))}
               </h1>
 
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
+              <p className="mt-6 w-full max-w-[calc(100vw-3rem)] break-words text-lg leading-relaxed text-slate-400 sm:max-w-xl">
                 {hero.bio}
               </p>
 
-              <div className="relative z-20 mt-9 flex flex-wrap items-center gap-4">
+              <div className="relative z-20 mt-9 flex w-full flex-col items-stretch gap-4 sm:flex-row sm:flex-wrap sm:items-center">
                 <Link
                   to="/projects"
-                  className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04] sm:w-auto"
+                  className="group inline-flex min-h-12 w-[calc(100vw-3rem)] max-w-full items-center justify-center gap-2 rounded-full bg-neon px-7 py-3.5 font-semibold text-ink shadow-lg shadow-neon/10 transition-transform duration-200 hover:scale-[1.04] sm:w-auto"
                   data-testid="hero-cta-projects"
                 >
                   View Projects
@@ -154,7 +154,7 @@ export default function Home() {
                 </Link>
                 <Link
                   to="/contact"
-                  className="inline-flex min-h-12 w-full items-center justify-center rounded-full border border-slate-500 bg-panel/80 px-7 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-neon hover:bg-panel2 hover:text-neon sm:w-auto"
+                  className="inline-flex min-h-12 w-[calc(100vw-3rem)] max-w-full items-center justify-center rounded-full border border-slate-500 bg-panel/80 px-7 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-neon hover:bg-panel2 hover:text-neon sm:w-auto"
                   data-testid="hero-cta-contact"
                 >
                   Get In Touch
@@ -162,7 +162,7 @@ export default function Home() {
                 <a
                   href={profile.resume}
                   download={profile.resumeName}
-                  className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-gold/60 bg-panel/80 px-6 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-gold hover:bg-panel2 hover:text-gold sm:w-auto"
+                  className="inline-flex min-h-12 w-[calc(100vw-3rem)] max-w-full items-center justify-center gap-2 rounded-full border border-gold/60 bg-panel/80 px-6 py-3.5 font-semibold text-slate-100 shadow-lg shadow-black/10 transition-colors duration-200 hover:border-gold hover:bg-panel2 hover:text-gold sm:w-auto"
                   data-testid="hero-cta-resume"
                 >
                   <FileText size={16} />
@@ -171,7 +171,7 @@ export default function Home() {
               </div>
             </div>
 
-            <motion.div style={{ y: visualY }} className="lg:col-span-5">
+            <motion.div style={{ y: visualY }} className="min-w-0 lg:col-span-5">
               <motion.div
                 style={{ x: cardX, y: cardY }}
                 initial={{ opacity: 0, scale: 0.94, rotate: 2 }}

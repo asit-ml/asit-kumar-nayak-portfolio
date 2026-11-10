@@ -9,7 +9,7 @@ Dark, animated, multi-page portfolio built with React 19, Framer Motion, Lenis a
 - `/` — Home: kinetic hero, stats, skills marquee, Core Spotlight bento, featured projects, CTA
 - `/about` — Story, quick facts, highlights
 - `/experience` — Timeline: NPTEL internship + 3 IIT Madras Teaching Assistant roles
-- `/projects` — All 6 projects with category filter (ML & Deep Learning / Full-Stack / AI Tools)
+- `/projects` — All 10 projects with category filter (ML & Deep Learning / Full-Stack / AI Tools)
 - `/skills` — Languages, frameworks & libraries, platforms & tools, teaching topics
 - `/education` — IIT Madras BS in Data Science & Applications + coursework
 - `/hackathons` — ANRF AISEHack 2.0 spotlight (Top 20, Round 2 Private Leaderboard)
